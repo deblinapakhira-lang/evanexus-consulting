@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Evanexus Consulting — Design System
+   EvaNexus Consulting — Design System
    Palette extends the studio's existing print collateral.
    ========================================================================== */
 
@@ -147,6 +147,20 @@ em.accent {
 .wordmark span {
   font-style: italic;
   color: var(--sage-deep);
+}
+
+.wordmark-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.wordmark-subtext {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 0.68rem;
+  color: var(--warm-gray);
+  letter-spacing: 0.01em;
 }
 
 .nav-links {
